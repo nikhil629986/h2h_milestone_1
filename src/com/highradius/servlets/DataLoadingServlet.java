@@ -14,6 +14,6 @@ public class DataLoadingServlet {
     }
 
     public List<Invoice> getInvoice() throws IOException {
-        return invoiceDao.getInvoice();
+        return invoiceDao.getInvoices();
     }
 }
